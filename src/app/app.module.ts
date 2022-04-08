@@ -20,7 +20,6 @@ import { FormationListComponent } from './components/formation/formation-list/fo
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
 import { ConnexionComponent } from './components/connexion/connexion.component';
 import { InscriptionComponent } from './components/inscription/inscription.component';
-import { AccompagnementComponent } from './components/accompagnement/accompagnement.component';
 
 
 @NgModule({
@@ -38,8 +37,7 @@ import { AccompagnementComponent } from './components/accompagnement/accompagnem
     FormationListComponent,
     FormationDetailsComponent,
     ConnexionComponent,
-    InscriptionComponent,
-    AccompagnementComponent
+    InscriptionComponent
   ],
   imports: [
     BrowserModule,

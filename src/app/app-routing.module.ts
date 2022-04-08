@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AccompagnementComponent } from './components/accompagnement/accompagnement.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
 import { FormationListComponent } from './components/formation/formation-list/formation-list.component';
 import { HomeComponent } from './components/home/home.component';
@@ -9,7 +8,6 @@ import { PostsListComponent } from './components/sensibilisation/posts-list/post
 
 const routes: Routes = [
   { 'path': '', component: HomeComponent },
-  { 'path': 'accompagnement', component: AccompagnementComponent },
   {
       path: 'sensibilisation', children: [
         { path: '', component: PostsListComponent },
