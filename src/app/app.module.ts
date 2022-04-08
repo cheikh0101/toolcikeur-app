@@ -18,8 +18,8 @@ import { AsksDetailsComponent } from './components/echange/asks-details/asks-det
 import { RepliesAsksComponent } from './components/echange/replies-asks/replies-asks.component';
 import { FormationListComponent } from './components/formation/formation-list/formation-list.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
-import { ConnexionComponent } from './components/connexion/connexion.component';
-import { InscriptionComponent } from './components/inscription/inscription.component';
+import { ConnexionComponent } from './components/user/connexion/connexion.component';
+import { InscriptionComponent } from './components/user/inscription/inscription.component';
 import { AccompagnementComponent } from './components/accompagnement/accompagnement.component';
 
 
