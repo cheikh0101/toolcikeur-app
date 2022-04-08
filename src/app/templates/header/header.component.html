@@ -9,13 +9,9 @@
               <li class="nav-item px-2"><a class="nav-link fw-medium">Echange </a></li>
               <li class="nav-item px-2"><a class="nav-link fw-medium" [routerLink]="['/formation']">Formation</a></li>
             </ul>
-            <form class="d-flex">
-              <button class="btn btn-lg btn-dark bg-gradient order-0" type="submit">Se Connecter</button>
-            </form>
+            <a class="btn btn-lg btn-dark bg-gradient order-0 nav-link fw-medium" [routerLink]="['user/connexion']">Se Connecter</a>
             &nbsp;
-            <form class="d-flex">
-              <button class="btn btn-lg btn-dark bg-gradient order-0" type="submit">S'inscrire</button>
-            </form>
+                <a class="btn btn-lg btn-dark bg-gradient order-0 nav-link fw-medium" [routerLink]="['user/inscription']">S'inscrire</a>
           </div>
         </div>
       </nav>

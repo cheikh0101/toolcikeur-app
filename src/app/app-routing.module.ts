@@ -1,13 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ConnexionComponent } from './components/user/connexion/connexion.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
 import { FormationListComponent } from './components/formation/formation-list/formation-list.component';
 import { HomeComponent } from './components/home/home.component';
 import { PostDetailsComponent } from './components/sensibilisation/post-details/post-details.component';
 import { PostsListComponent } from './components/sensibilisation/posts-list/posts-list.component';
+import { InscriptionComponent } from './components/user/inscription/inscription.component';
 
 const routes: Routes = [
   { 'path': '', component: HomeComponent },
+  { 'path': 'user', children: [
+    { 'path': 'connexion', component: ConnexionComponent },
+    { 'path': 'inscription', component: InscriptionComponent},
+
+  ]
+},
   {
       path: 'sensibilisation', children: [
         { path: '', component: PostsListComponent },
@@ -20,6 +28,7 @@ const routes: Routes = [
         { path: 'details', component: FormationDetailsComponent },
       ],
     },
+
 
 ];
 
