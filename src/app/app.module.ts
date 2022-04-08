@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { NzButtonModule } from 'ng-zorro-antd/button';
 import { FooterComponent } from './templates/footer/footer.component';
 import { HeaderComponent } from './templates/header/header.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -19,6 +18,9 @@ import { AsksDetailsComponent } from './components/echange/asks-details/asks-det
 import { RepliesAsksComponent } from './components/echange/replies-asks/replies-asks.component';
 import { FormationListComponent } from './components/formation/formation-list/formation-list.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
+import { ConnexionComponent } from './components/connexion/connexion.component';
+import { InscriptionComponent } from './components/inscription/inscription.component';
+import { AccompagnementComponent } from './components/accompagnement/accompagnement.component';
 
 
 @NgModule({
@@ -34,12 +36,14 @@ import { FormationDetailsComponent } from './components/formation/formation-deta
     AsksDetailsComponent,
     RepliesAsksComponent,
     FormationListComponent,
-    FormationDetailsComponent
+    FormationDetailsComponent,
+    ConnexionComponent,
+    InscriptionComponent,
+    AccompagnementComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NzButtonModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
