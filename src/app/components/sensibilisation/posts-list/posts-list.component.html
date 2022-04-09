@@ -9,7 +9,16 @@
           <div class="card-body text-center">
             <h1 class="fw-semi-bold mb-4"> &nbsp;<span class="text-success">S'inscrire à notre newsletter</span> &nbsp;
             </h1>
-            <a class="btn btn-lg btn-success px-6" href="#" role="button">Je m'inscris</a>
+            <div class="row mt-5">
+              <div class="col position-absolute top-30 start-50 translate-middle">
+                <div class="form-group">
+                  <label for=""></label>
+                  <input type="text"
+                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                </div>
+                <a class="btn btn-success mt-2">Je m'inscris</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -42,11 +51,15 @@
           <div class="col-md-6 mb-5">
             <div class="card h-100 shadow px-4 px-md-2 px-lg-3 card-span pt-6">
               <div class="text-center text-md-start card-hover"><img class="ps-3 icons"
-                  src="assets/img/icons/planting.svg" height="60" alt="" />
+                  src="assets/img/illustrations/air.png" height="60" alt="" />
                 <div class="card-body">
-                  <h6 class="fw-bold fs-1 heading-color">Impact Environnemental</h6>
-                  <p class="mt-3 mb-md-0 mb-lg-2">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                    blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
+                  <h6 class="fw-bold fs-1 heading-color">Air</h6>
+                  <p class="mt-3 mb-md-0 mb-lg-2">
+                    <a [routerLink]="['/sensibilisation/details']" class="stretched-link">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  </a>
+                </p>
                 </div>
               </div>
             </div>
@@ -55,9 +68,9 @@
           <div class="col-md-6 mb-5">
             <div class="card h-100 shadow px-4 px-md-2 px-lg-3 card-span pt-6">
               <div class="text-center text-md-start card-hover"><img class="ps-3 icons"
-                  src="assets/img/icons/farmer.svg" height="60" alt="" />
+                  src="assets/img/illustrations/water.png" height="60" alt="" />
                 <div class="card-body">
-                  <h6 class="fw-bold fs-1 heading-color">Forte Communauté</h6>
+                  <h6 class="fw-bold fs-1 heading-color">Eau</h6>
                   <p class="mt-3 mb-md-0 mb-lg-2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
                     fugit, sed quia consequuntur magni dolores eos qui ratione</p>
                 </div>
@@ -73,10 +86,10 @@
         <div class="row">
           <div class="col-md-6 mb-5">
             <div class="card h-100 shadow px-4 px-md-2 px-lg-3 card-span pt-6">
-              <div class="text-center text-md-start card-hover"><img class="ps-3 icons" src="assets/img/icons/planting.svg"
+              <div class="text-center text-md-start card-hover"><img class="ps-3 icons" src="assets/img/illustrations/stress.png"
                   height="60" alt="" />
                 <div class="card-body">
-                  <h6 class="fw-bold fs-1 heading-color">Impact Environnemental</h6>
+                  <h6 class="fw-bold fs-1 heading-color">Stress</h6>
                   <p class="mt-3 mb-md-0 mb-lg-2">At vero eos et accusamus et iusto odio dignissimos ducimus qui
                     blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
                 </div>
@@ -86,10 +99,10 @@
 
           <div class="col-md-6 mb-5">
             <div class="card h-100 shadow px-4 px-md-2 px-lg-3 card-span pt-6">
-              <div class="text-center text-md-start card-hover"><img class="ps-3 icons" src="assets/img/icons/farmer.svg"
+              <div class="text-center text-md-start card-hover"><img class="ps-3 icons" src="assets/img/illustrations/pauvrete.png"
                   height="60" alt="" />
                 <div class="card-body">
-                  <h6 class="fw-bold fs-1 heading-color">Forte Communauté</h6>
+                  <h6 class="fw-bold fs-1 heading-color">Pauvreté</h6>
                   <p class="mt-3 mb-md-0 mb-lg-2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
                     fugit, sed quia consequuntur magni dolores eos qui ratione</p>
                 </div>

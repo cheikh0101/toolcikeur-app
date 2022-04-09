@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AccompagnementComponent } from './components/accompagnement/accompagnement.component';
 import { ConnexionComponent } from './components/user/connexion/connexion.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
 import { FormationListComponent } from './components/formation/formation-list/formation-list.component';
@@ -26,7 +25,13 @@ const routes: Routes = [
 
     ]
   },
-  { 'path': 'accompagnement', component: AccompagnementComponent },
+  // { 'path': 'accompagnement', component: AccompagnementComponent },
+  { 'path': 'user', children: [
+    { 'path': 'connexion', component: ConnexionComponent },
+    { 'path': 'inscription', component: InscriptionComponent},
+
+  ]
+},
   {
     path: 'sensibilisation', children: [
       { path: '', component: PostsListComponent },
