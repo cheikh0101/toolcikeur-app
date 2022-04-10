@@ -1,62 +1,87 @@
-<section class="py-0" id="header">
+<section>
+  <div class="contain">
+    <div class="forms-contain">
+      <div class="signin-signup">
+        <form class="sign-in-form; px-lg-5">
+          <div
+            class="d-flex"
+            style="
+            border-radius: 30px;
+              justify-content: center;
+              background-color: rgb(250, 250, 250);
+              border: 0px solid rgba(0, 0, 0, 0.327);
+              box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+              width: 450px;
+              padding: 30px;
+            "
+          >
+            <div style="width: 100%">
+              <h1 style="font-weight: bolder; text-align: center; color: rgba(0,0,0,0.5)">Connexion</h1>
+              <br />
 
-    <div class="contain">
-        <div class="forms-contain">
-          <div class="signin-signup">
-            <form class="sign-in-form">
-              <h2 class="title">Connexion</h2>
-      
               <div class="input-field">
-                <i icon="user"></i>
-                <input type="email" name="email" placeholder="Adresse Email"/>
+                <i class="fa fa-user"></i>
+                <input type="email" name="email" placeholder="Adresse Email" />
                 <div class="invalid-feedback">
-                  <div>
-                    Champ obligatoire
-                  </div>
-      
-                  <div>
-                    Format invalide
-                  </div>
+                  <div>Champ obligatoire</div>
+
+                  <div>Format invalide</div>
                 </div>
               </div>
-      
+
               <div class="input-field">
-                <i icon="lock"></i>
-                <input type="password" placeholder="Mot de Passe" name="password" formControlName="password"/>
+                <i class="fas fa-lock"></i>
+                <input
+                  type="password"
+                  placeholder="Mot de Passe"
+                  name="password"
+                  formControlName="password"
+                />
                 <div class="invalid-feedback">
-                  <div>
-                    Champ obligatoire
-                  </div>
-                  <div>
-                    Trop court
-                  </div>
+                  <div>Champ obligatoire</div>
+                  <div>Trop court</div>
                 </div>
               </div>
-              <button type="submit" class="btn" style="background-color: rgb(0, 133, 29)" class="btn btn-hover2" value="S'inscrire">Se connecter</button>
-            </form>
-            <div class="m-2">
-              <h5>
-      
-              </h5>
+              <div class="d-flex justify-content-center">
+                <button
+                  type="submit"
+                  class="btn w-50"
+                >
+                  Se connecter
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      
-        <div class="panels-contain">
-          <div class="panel left-panel">
-            <div class="content mt-5">
-              <!-- <h3 style="font-family:'Poppins','sans-serif';font-size: 30px;">Nouveau ici ?</h3> -->
-              <!-- <p style="font-family:'Poppins','sans-serif';font-size: 17.2px;">
+
+          <!-- <div class="m-5">
+                <h5>
+              
+        
+                </h5>
+              </div> -->
+        </form>
+      </div>
+    </div>
+
+    <div class="panels-contain">
+      <div class="panel left-panel">
+        <div class="content mt-5">
+          <!-- <h3 style="font-family:'Poppins','sans-serif';font-size: 30px;">Nouveau ici ?</h3> -->
+          <!-- <p style="font-family:'Poppins','sans-serif';font-size: 17.2px;">
                 Veuillez cliquer sur le bouton ci-dessous pour vous inscrire
               </p> -->
-              <!-- <a routerLink="user/inscription" style="text-decoration: none;" class="text-light">
+          <!-- <a routerLink="user/inscription" style="text-decoration: none;" class="text-light">
                 <button class="btn transparent" id="sign-up-btn">
                   S'inscrire
                 </button>
               </a> -->
-            </div>
-            <img src="/assets/img/gallery/computer-login-rafiki.svg" class="image mt-0" alt="homme assis tenant un objet à coté d'une fusée" />
-          </div>
         </div>
+        <img
+          src="/assets/img/gallery/computer-login-rafiki.svg"
+          class="image mt-0"
+          alt="homme assis tenant un objet à coté d'une fusée"
+        />
       </div>
+    </div>
+  </div>
 </section>
