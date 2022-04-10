@@ -20,7 +20,6 @@ import { FormationListComponent } from './components/formation/formation-list/fo
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
 import { ConnexionComponent } from './components/user/connexion/connexion.component';
 import { InscriptionComponent } from './components/user/inscription/inscription.component';
-import { AccompagnementComponent } from './components/accompagnement/accompagnement.component';
 
 
 @NgModule({
